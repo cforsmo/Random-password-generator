@@ -1,0 +1,24 @@
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Karla:wght@400;500;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a <span class="random">random password</span></h1>
+        <h3>Never use an insecure password again.</h3>
+        <h5>How many characters would you like your password to be?</h5>
+        <input type="text" placeholder="0" id="password-length"></input>
+        <br>
+        <button id="generate-button" onclick="displayPasswords()">Generate passwords</button>
+        <div class="dividing-bar"></div>
+        <ul>
+            <li><button id="password1"></button></li>
+            <li><button id="password2"></button></li>
+            <li><button id="password3"></button></li>
+            <li><button id="password4"></button></li>
+        </ul>
+        <script src="index.js"></script>
+    </body>
+</html>
