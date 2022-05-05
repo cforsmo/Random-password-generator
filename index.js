@@ -1,5 +1,5 @@
 const characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWQYZ1234567890!#$"
-var password = ""
+let password = ""
 const generateButton = document.getElementById("generate-button")
 const password1 = document.getElementById("password1")
 const password2 = document.getElementById("password2")
@@ -9,7 +9,7 @@ const password4 = document.getElementById("password4")
 
 function generatePassword() {
     //Setting the passwords length from the input in the input field
-    var passwordLength = document.getElementById("password-length").value
+    let passwordLength = document.getElementById("password-length").value
 
     for (let i = 0; i < passwordLength; i++) {
         let randomPassword = characters[Math.floor(Math.random() * characters.length)]
