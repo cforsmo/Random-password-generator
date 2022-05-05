@@ -18,7 +18,6 @@ function generatePassword() {
 }
 
 function displayPasswords() {
-
     //Creating multiple password functions is done so that we wont just get the same password four times.
     function firstPassword() {
         generatePassword()
@@ -41,10 +40,9 @@ function displayPasswords() {
         password4.textContent = password
         password = ""
     }
-    
+
     firstPassword()
     secondPassword()
     thirdPassword()
     fourthPassword()
-  
 }
