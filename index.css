@@ -1,10 +1,23 @@
 html, body {
   margin: 0;
-  padding: 2em;
-  background-color: #881337;
-  color: #FFF1F2;
+  padding: 0;
+  background-color: #059669;
+  color: #D1FAE5;
   font-family: karla;
+  position: relative;
+  display: flex;
+  justify-content: center;
   
+}
+
+.content {
+  background: rgba(1, 1, 1, 0.4);
+  position: absolute;
+  z-index: 1;
+  border-radius: 3em;
+  top: 15%;
+  box-shadow: 5px 5px 90px 5px rgba(0, 0, 0, 0.4);
+  padding: 2em;
 }
 
 h1 {
@@ -15,7 +28,7 @@ h1 {
 }
 
 .random {
-  color: #FB7185;
+  color: #059669;
 }
 
 h3 {
@@ -35,16 +48,18 @@ h5 {
   height: 2em;
   width: 12em;
   border-radius: .3em;
-  margin: 1em 0 1em 0;
+  margin-bottom: 1em;
+  background-color: #D1FAE5;
+  color: #064E3B;
 }
 #generate-button {
-  background-color: #FB7185;
+  background-color: #10B981;
   height: 2.6em;
   width: 14em;
   border: none;
   border-radius: .3em;
   font-size: 1em;
-  color: #FFF1F2;
+  color: #D1FAE5;
 }
 
 ul {
@@ -52,13 +67,17 @@ ul {
   grid-template-columns: auto auto;
   padding: 2em 0 0 0;
   list-style-type: none;
+  width: 50%;
 }
 #password1, #password2, #password3, #password4 {
-  height: 2.4em;
-  width: 13em;
+  height: 3em;
+  width: 15em;
   border: none;
   margin-top: 1em;
   margin-right: 1em;
   border-radius: .3em;
-  background-color: #9F1239;
+  background-color: #047857;
+  color: #D1FAE5;
+  font-size: 1em;
+
 }
